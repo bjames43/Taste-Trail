@@ -15,11 +15,7 @@ export default function Hero() {
     <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#000000_40%,#63e_100%)]" />
 </div>
 
-      {/* Particles Effect - layer 1 
-      <div className="absolute inset-0 z-1">
-        <ParticlesBackground />
-      </div>
-*/}
+  
       {/* Globe overlay - layer 2 */}
       <div className="absolute inset-0 z-20 flex items-center justify-center opacity-30 z-1">
         <GlobeComponent />
